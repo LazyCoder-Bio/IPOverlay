@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>FloatingIpoverlayWidget</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="IPOverlay.qrc">
+    <normaloff>:/IPOverlay.png</normaloff>:/IPOverlay.png</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">background-color:rgba(0,0,0,140); /*半透黑色底板，最后数字0‑255控制透明度*/
     border-radius:12px;</string>
@@ -85,6 +89,8 @@ background-color: transparent;</string>
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="IPOverlay.qrc"/>
+ </resources>
  <connections/>
 </ui>

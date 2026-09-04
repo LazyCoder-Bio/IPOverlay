@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen",
+	"CMAKE_BINARY_DIR" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "G:/Projects/Qt/IPOverlay",
+	"CMAKE_SOURCE_DIR" : "G:/Projects/Qt/IPOverlay",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include",
+	"INPUTS" : [ "G:/Projects/Qt/IPOverlay/IPOverlay.png" ],
+	"LOCK_FILE" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "IPOverlay" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_IPOverlay.cpp",
+	"RCC_EXECUTABLE" : "E:/applications/Development/Qt/6.11.1/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Used.txt",
+	"SOURCE" : "G:/Projects/Qt/IPOverlay/IPOverlay.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

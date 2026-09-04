@@ -254,6 +254,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/applications/Development/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "E:/applications/Development/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
   "G:/Projects/Qt/IPOverlay/CMakeLists.txt"
+  "G:/Projects/Qt/IPOverlay/IPOverlay.qrc"
   ".qtcreator/cmake-helper/maintenance_tool_provider.cmake"
   ".qtcreator/cmake-helper/package-manager.cmake"
   ".qtcreator/cmake-helper/qtcreator-project.cmake"
@@ -274,6 +275,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "IPOverlay.exe.manifest"
   "CMakeFiles/IPOverlay_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Info.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

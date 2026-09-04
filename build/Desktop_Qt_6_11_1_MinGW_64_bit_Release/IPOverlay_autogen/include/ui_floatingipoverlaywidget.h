@@ -10,6 +10,7 @@
 #define UI_FLOATINGIPOVERLAYWIDGET_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -34,6 +35,9 @@ public:
         if (FloatingIpoverlayWidget->objectName().isEmpty())
             FloatingIpoverlayWidget->setObjectName("FloatingIpoverlayWidget");
         FloatingIpoverlayWidget->resize(184, 82);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/IPOverlay.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        FloatingIpoverlayWidget->setWindowIcon(icon);
         FloatingIpoverlayWidget->setStyleSheet(QString::fromUtf8("background-color:rgba(0,0,0,140); /*\345\215\212\351\200\217\351\273\221\350\211\262\345\272\225\346\235\277\357\274\214\346\234\200\345\220\216\346\225\260\345\255\2270\342\200\221255\346\216\247\345\210\266\351\200\217\346\230\216\345\272\246*/\n"
 "    border-radius:12px;"));
         verticalLayout = new QVBoxLayout(FloatingIpoverlayWidget);

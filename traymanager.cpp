@@ -39,7 +39,7 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
 
     m_trayIcon = new QSystemTrayIcon(this);
     //调试用系统内置图标，正式版替换为 :/res/icon.png
-    m_trayIcon->setIcon(QApplication::style()->standardIcon(QStyle::SP_ComputerIcon));
+    m_trayIcon->setIcon(QIcon(":/IPOverlay.png"));
     m_trayIcon->setToolTip("IPOverlay");
 
     //构建右键菜单

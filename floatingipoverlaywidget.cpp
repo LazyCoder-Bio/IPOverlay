@@ -12,6 +12,8 @@ FloatingIpoverlayWidget::FloatingIpoverlayWidget(QWidget *parent)
 {
     ui->setupUi(this);
 
+
+
     // 1.窗口标记：无边框 + 置顶（总在最上层）
     setWindowFlags(
         Qt::Window                // 这是独立顶层窗口，不能丢
@@ -45,6 +47,10 @@ FloatingIpoverlayWidget::FloatingIpoverlayWidget(QWidget *parent)
 
 
 void FloatingIpoverlayWidget:: safeShow(){
+
+
+
+
     show();
 }
 

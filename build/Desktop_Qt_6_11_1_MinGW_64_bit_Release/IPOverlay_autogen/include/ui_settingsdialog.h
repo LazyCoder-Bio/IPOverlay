@@ -10,6 +10,7 @@
 #define UI_SETTINGSDIALOG_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QHBoxLayout>
@@ -39,6 +40,8 @@ public:
         if (SettingsDialog->objectName().isEmpty())
             SettingsDialog->setObjectName("SettingsDialog");
         SettingsDialog->resize(356, 195);
+        QIcon icon(QIcon::fromTheme(QIcon::ThemeIcon::DocumentNew));
+        SettingsDialog->setWindowIcon(icon);
         verticalLayout = new QVBoxLayout(SettingsDialog);
         verticalLayout->setObjectName("verticalLayout");
         listUrl = new QListWidget(SettingsDialog);

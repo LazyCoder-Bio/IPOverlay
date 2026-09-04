@@ -671,6 +671,7 @@ IPOverlay_autogen/timestamp: \
 	G:/Projects/Qt/IPOverlay/CMakeLists.txt \
 	G:/Projects/Qt/IPOverlay/ConfigHelper.cpp \
 	G:/Projects/Qt/IPOverlay/ConfigHelper.h \
+	G:/Projects/Qt/IPOverlay/IPOverlay.qrc \
 	G:/Projects/Qt/IPOverlay/SettingsDialog.cpp \
 	G:/Projects/Qt/IPOverlay/SettingsDialog.h \
 	G:/Projects/Qt/IPOverlay/Widget.cpp \

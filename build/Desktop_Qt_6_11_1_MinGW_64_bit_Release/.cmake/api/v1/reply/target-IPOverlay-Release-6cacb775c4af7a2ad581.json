@@ -83,13 +83,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 71,
+				"line" : 72,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 55,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
@@ -311,7 +311,7 @@
 			{
 				"command" : 15,
 				"file" : 1,
-				"line" : 77,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
@@ -462,18 +462,19 @@
 				13,
 				15,
 				17,
-				20
+				20,
+				28
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "IPOverlay_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "IPOverlay_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "IPOverlay_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "IPOverlay::@6890427a1f51a3e7e1df",
@@ -602,7 +603,8 @@
 				13,
 				15,
 				17,
-				20
+				20,
+				28
 			]
 		},
 		{
@@ -617,9 +619,9 @@
 				14,
 				16,
 				19,
-				23,
 				24,
-				25
+				25,
+				26
 			]
 		},
 		{
@@ -636,15 +638,23 @@
 			"sourceIndexes" : 
 			[
 				5,
-				22,
-				26
+				23,
+				27
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				22
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				27
+				29,
+				30
 			]
 		}
 	],
@@ -772,6 +782,11 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "IPOverlay.qrc",
+			"sourceGroupIndex" : 4
+		},
+		{
 			"backtrace" : 51,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe.manifest",
 			"sourceGroupIndex" : 3
@@ -802,9 +817,22 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/timestamp.rule",
-			"sourceGroupIndex" : 4
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.rule",
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

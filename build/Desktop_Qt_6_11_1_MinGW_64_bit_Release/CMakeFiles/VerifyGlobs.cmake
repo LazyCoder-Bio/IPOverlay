@@ -58,6 +58,7 @@ set(OLD_GLOB
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_floatingipoverlaywidget.cpp"
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_ipservice.cpp"
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_traymanager.cpp"
+  "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp"
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/mocs_compilation.cpp"
   "G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp"
   "G:/Projects/Qt/IPOverlay/ipservice.cpp"
@@ -176,6 +177,7 @@ endif()
 # _directory_contents at E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "G:/Projects/Qt/IPOverlay/*.qrc")
 set(OLD_GLOB
+  "G:/Projects/Qt/IPOverlay/IPOverlay.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

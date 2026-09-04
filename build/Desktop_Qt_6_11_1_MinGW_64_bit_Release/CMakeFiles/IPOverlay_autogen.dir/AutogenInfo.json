@@ -380,7 +380,8 @@
 		"E:/applications/Development/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"E:/applications/Development/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		"E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in",
+		"G:/Projects/Qt/IPOverlay/IPOverlay.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "G:/Projects/Qt/IPOverlay",
 	"CROSS_CONFIG" : false,

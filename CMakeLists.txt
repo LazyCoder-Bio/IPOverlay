@@ -36,6 +36,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         SettingsDialog.cpp
         SettingsDialog.ui
         aboutdialog.h aboutdialog.cpp aboutdialog.ui
+        IPOverlay.qrc
     )
     qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 else()

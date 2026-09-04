@@ -17,7 +17,7 @@ AboutDialog::AboutDialog(QWidget *parent)
 <p>编译环境：%QT_VER%</p>
 <br>
 <p>作者：LazyCoder-Bio</p>
-<p>GitHub：<a href="https://github.com/LazyCoder-Bio/xxx">https://github.com/LazyCoder-Bio/xxx</a></p>
+<p>GitHub：<a href="https://github.com/LazyCoder-Bio/IPOverlay">https://github.com/LazyCoder-Bio/IPOverlay</a></p>
 <br>
 <p>公网IP获取来源：</p>
 <p>ipinfo.io、api‑ipv4.ip.sb、api.ipify.org</p>

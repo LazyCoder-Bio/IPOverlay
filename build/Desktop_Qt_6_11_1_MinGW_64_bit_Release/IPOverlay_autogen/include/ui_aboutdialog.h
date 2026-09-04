@@ -10,6 +10,7 @@
 #define UI_ABOUTDIALOG_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
@@ -30,13 +31,14 @@ public:
         if (AboutDialog->objectName().isEmpty())
             AboutDialog->setObjectName("AboutDialog");
         AboutDialog->resize(420, 260);
-        AboutDialog->setWindowFlags(Qt::Dialog);
+        QIcon icon(QIcon::fromTheme(QIcon::ThemeIcon::DialogInformation));
+        AboutDialog->setWindowIcon(icon);
         verticalLayout = new QVBoxLayout(AboutDialog);
         verticalLayout->setObjectName("verticalLayout");
         lblContent = new QLabel(AboutDialog);
         lblContent->setObjectName("lblContent");
+        lblContent->setTextFormat(Qt::TextFormat::RichText);
         lblContent->setWordWrap(true);
-        lblContent->setTextFormat(Qt::RichText);
 
         verticalLayout->addWidget(lblContent);
 

@@ -83,13 +83,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 70,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 54,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -311,7 +311,7 @@
 			{
 				"command" : 15,
 				"file" : 1,
-				"line" : 76,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
@@ -461,18 +461,19 @@
 				11,
 				13,
 				15,
-				17
+				17,
+				20
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "IPOverlay_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "IPOverlay_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "IPOverlay_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "IPOverlay::@6890427a1f51a3e7e1df",
@@ -600,7 +601,8 @@
 				11,
 				13,
 				15,
-				17
+				17,
+				20
 			]
 		},
 		{
@@ -614,8 +616,10 @@
 				12,
 				14,
 				16,
-				20,
-				21
+				19,
+				23,
+				24,
+				25
 			]
 		},
 		{
@@ -623,7 +627,8 @@
 			"sourceIndexes" : 
 			[
 				4,
-				18
+				18,
+				21
 			]
 		},
 		{
@@ -631,15 +636,15 @@
 			"sourceIndexes" : 
 			[
 				5,
-				19,
-				22
+				22,
+				26
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				23
+				27
 			]
 		}
 	],
@@ -751,6 +756,22 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "aboutdialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "aboutdialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "aboutdialog.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 51,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe.manifest",
 			"sourceGroupIndex" : 3
@@ -765,6 +786,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_SettingsDialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_aboutdialog.h",
 			"sourceGroupIndex" : 1
 		},
 		{

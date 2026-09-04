@@ -387,6 +387,7 @@ CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_aboutdialog.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/QIcon \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtWidgets/qapplication.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \

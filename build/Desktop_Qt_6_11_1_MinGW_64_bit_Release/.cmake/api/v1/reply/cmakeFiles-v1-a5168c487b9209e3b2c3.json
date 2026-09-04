@@ -29,6 +29,7 @@
 				"G:/Projects/Qt/IPOverlay/ConfigHelper.cpp",
 				"G:/Projects/Qt/IPOverlay/SettingsDialog.cpp",
 				"G:/Projects/Qt/IPOverlay/Widget.cpp",
+				"G:/Projects/Qt/IPOverlay/aboutdialog.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/IPOverlay_autogen/EWIEGA46WW/moc_Widget.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/IPOverlay_autogen/EWIEGA46WW/moc_floatingipoverlaywidget.cpp",
@@ -37,9 +38,11 @@
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_SettingsDialog.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_Widget.cpp",
+				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_aboutdialog.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_floatingipoverlaywidget.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_ipservice.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_traymanager.cpp",
+				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/mocs_compilation.cpp",
 				"G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp",
 				"G:/Projects/Qt/IPOverlay/ipservice.cpp",
@@ -61,8 +64,10 @@
 				"G:/Projects/Qt/IPOverlay/ConfigHelper.h",
 				"G:/Projects/Qt/IPOverlay/SettingsDialog.h",
 				"G:/Projects/Qt/IPOverlay/Widget.h",
+				"G:/Projects/Qt/IPOverlay/aboutdialog.h",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/IPOverlay_autogen/include/ui_floatingipoverlaywidget.h",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/IPOverlay_autogen/moc_predefs.h",
+				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_aboutdialog.h",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_floatingipoverlaywidget.h",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include/ui_settingsdialog.h",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/moc_predefs.h",
@@ -114,7 +119,10 @@
 		},
 		{
 			"expression" : "G:/Projects/Qt/IPOverlay/*.qrc",
-			"paths" : [],
+			"paths" : 
+			[
+				"G:/Projects/Qt/IPOverlay/IPOverlay.qrc"
+			],
 			"recurse" : true
 		},
 		{
@@ -127,6 +135,7 @@
 			"paths" : 
 			[
 				"G:/Projects/Qt/IPOverlay/SettingsDialog.ui",
+				"G:/Projects/Qt/IPOverlay/aboutdialog.ui",
 				"G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.ui"
 			],
 			"recurse" : true
@@ -1712,6 +1721,9 @@
 		{
 			"isExternal" : true,
 			"path" : "E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		},
+		{
+			"path" : "IPOverlay.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",

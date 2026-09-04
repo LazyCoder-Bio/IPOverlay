@@ -11,8 +11,11 @@
 Widget::Widget(QWidget *parent)
     : QWidget(parent, Qt::Tool| Qt::FramelessWindowHint)
 {
+
+    setWindowIcon(QIcon(":/IPOverlay.png"));
     setAttribute(Qt::WA_NoSystemBackground);
     setAttribute(Qt::WA_TransparentForMouseEvents);
+
 
     setupFloatWindow();
     setupIpService();

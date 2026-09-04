@@ -75,11 +75,19 @@ IPOverlay_autogen/timestamp: CMakeFiles/IPOverlay.dir/compiler_depend.ts
 	E:\applications\Development\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir/AutogenInfo.json Release
 	E:\applications\Development\Qt\Tools\CMake_64\bin\cmake.exe -E touch G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/timestamp
 
+IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp: G:/Projects/Qt/IPOverlay/IPOverlay.qrc
+IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp: CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Info.json
+IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp: G:/Projects/Qt/IPOverlay/IPOverlay.png
+IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp: E:/applications/Development/Qt/6.11.1/mingw_64/bin/rcc.exe
+IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp: E:/applications/Development/Qt/6.11.1/mingw_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for IPOverlay.qrc"
+	E:\applications\Development\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Info.json Release
+
 CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj: CMakeFiles/IPOverlay.dir/flags.make
 CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj: IPOverlay_autogen/mocs_compilation.cpp
 CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\IPOverlay.dir\IPOverlay_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\IPOverlay.dir\IPOverlay_autogen\mocs_compilation.cpp.obj -c G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\mocs_compilation.cpp
 
 CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.i: cmake_force
@@ -94,7 +102,7 @@ CMakeFiles/IPOverlay.dir/main.cpp.obj: CMakeFiles/IPOverlay.dir/flags.make
 CMakeFiles/IPOverlay.dir/main.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/main.cpp.obj: G:/Projects/Qt/IPOverlay/main.cpp
 CMakeFiles/IPOverlay.dir/main.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IPOverlay.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IPOverlay.dir/main.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/main.cpp.obj -MF CMakeFiles\IPOverlay.dir\main.cpp.obj.d -o CMakeFiles\IPOverlay.dir\main.cpp.obj -c G:\Projects\Qt\IPOverlay\main.cpp
 
 CMakeFiles/IPOverlay.dir/main.cpp.i: cmake_force
@@ -109,7 +117,7 @@ CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj: CMakeFiles/IPOverlay.d
 CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj: G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp
 CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj -MF CMakeFiles\IPOverlay.dir\floatingipoverlaywidget.cpp.obj.d -o CMakeFiles\IPOverlay.dir\floatingipoverlaywidget.cpp.obj -c G:\Projects\Qt\IPOverlay\floatingipoverlaywidget.cpp
 
 CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.i: cmake_force
@@ -124,7 +132,7 @@ CMakeFiles/IPOverlay.dir/ipservice.cpp.obj: CMakeFiles/IPOverlay.dir/flags.make
 CMakeFiles/IPOverlay.dir/ipservice.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/ipservice.cpp.obj: G:/Projects/Qt/IPOverlay/ipservice.cpp
 CMakeFiles/IPOverlay.dir/ipservice.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IPOverlay.dir/ipservice.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/IPOverlay.dir/ipservice.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/ipservice.cpp.obj -MF CMakeFiles\IPOverlay.dir\ipservice.cpp.obj.d -o CMakeFiles\IPOverlay.dir\ipservice.cpp.obj -c G:\Projects\Qt\IPOverlay\ipservice.cpp
 
 CMakeFiles/IPOverlay.dir/ipservice.cpp.i: cmake_force
@@ -139,7 +147,7 @@ CMakeFiles/IPOverlay.dir/Widget.cpp.obj: CMakeFiles/IPOverlay.dir/flags.make
 CMakeFiles/IPOverlay.dir/Widget.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/Widget.cpp.obj: G:/Projects/Qt/IPOverlay/Widget.cpp
 CMakeFiles/IPOverlay.dir/Widget.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/IPOverlay.dir/Widget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/IPOverlay.dir/Widget.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/Widget.cpp.obj -MF CMakeFiles\IPOverlay.dir\Widget.cpp.obj.d -o CMakeFiles\IPOverlay.dir\Widget.cpp.obj -c G:\Projects\Qt\IPOverlay\Widget.cpp
 
 CMakeFiles/IPOverlay.dir/Widget.cpp.i: cmake_force
@@ -154,7 +162,7 @@ CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj: CMakeFiles/IPOverlay.dir/flags
 CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj: G:/Projects/Qt/IPOverlay/AutoStartHelper.cpp
 CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj -MF CMakeFiles\IPOverlay.dir\AutoStartHelper.cpp.obj.d -o CMakeFiles\IPOverlay.dir\AutoStartHelper.cpp.obj -c G:\Projects\Qt\IPOverlay\AutoStartHelper.cpp
 
 CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.i: cmake_force
@@ -169,7 +177,7 @@ CMakeFiles/IPOverlay.dir/traymanager.cpp.obj: CMakeFiles/IPOverlay.dir/flags.mak
 CMakeFiles/IPOverlay.dir/traymanager.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/traymanager.cpp.obj: G:/Projects/Qt/IPOverlay/traymanager.cpp
 CMakeFiles/IPOverlay.dir/traymanager.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/IPOverlay.dir/traymanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/IPOverlay.dir/traymanager.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/traymanager.cpp.obj -MF CMakeFiles\IPOverlay.dir\traymanager.cpp.obj.d -o CMakeFiles\IPOverlay.dir\traymanager.cpp.obj -c G:\Projects\Qt\IPOverlay\traymanager.cpp
 
 CMakeFiles/IPOverlay.dir/traymanager.cpp.i: cmake_force
@@ -184,7 +192,7 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: CMakeFiles/IPOverlay.dir/flags.ma
 CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: G:/Projects/Qt/IPOverlay/ConfigHelper.cpp
 CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj -MF CMakeFiles\IPOverlay.dir\ConfigHelper.cpp.obj.d -o CMakeFiles\IPOverlay.dir\ConfigHelper.cpp.obj -c G:\Projects\Qt\IPOverlay\ConfigHelper.cpp
 
 CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.i: cmake_force
@@ -199,7 +207,7 @@ CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj: CMakeFiles/IPOverlay.dir/flags.
 CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj: G:/Projects/Qt/IPOverlay/SettingsDialog.cpp
 CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj -MF CMakeFiles\IPOverlay.dir\SettingsDialog.cpp.obj.d -o CMakeFiles\IPOverlay.dir\SettingsDialog.cpp.obj -c G:\Projects\Qt\IPOverlay\SettingsDialog.cpp
 
 CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.i: cmake_force
@@ -214,7 +222,7 @@ CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj: CMakeFiles/IPOverlay.dir/flags.mak
 CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
 CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj: G:/Projects/Qt/IPOverlay/aboutdialog.cpp
 CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj -MF CMakeFiles\IPOverlay.dir\aboutdialog.cpp.obj.d -o CMakeFiles\IPOverlay.dir\aboutdialog.cpp.obj -c G:\Projects\Qt\IPOverlay\aboutdialog.cpp
 
 CMakeFiles/IPOverlay.dir/aboutdialog.cpp.i: cmake_force
@@ -224,6 +232,21 @@ CMakeFiles/IPOverlay.dir/aboutdialog.cpp.i: cmake_force
 CMakeFiles/IPOverlay.dir/aboutdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IPOverlay.dir/aboutdialog.cpp.s"
 	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Projects\Qt\IPOverlay\aboutdialog.cpp -o CMakeFiles\IPOverlay.dir\aboutdialog.cpp.s
+
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj: CMakeFiles/IPOverlay.dir/flags.make
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj: CMakeFiles/IPOverlay.dir/includes_CXX.rsp
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj: IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj: CMakeFiles/IPOverlay.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj"
+	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj -MF CMakeFiles\IPOverlay.dir\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp.obj.d -o CMakeFiles\IPOverlay.dir\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp.obj -c G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp
+
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.i"
+	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp > CMakeFiles\IPOverlay.dir\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp.i
+
+CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.s"
+	E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp -o CMakeFiles\IPOverlay.dir\IPOverlay_autogen\EWIEGA46WW\qrc_IPOverlay.cpp.s
 
 # Object files for target IPOverlay
 IPOverlay_OBJECTS = \
@@ -236,7 +259,8 @@ IPOverlay_OBJECTS = \
 "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj" \
 "CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj" \
 "CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj" \
-"CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj"
+"CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj" \
+"CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj"
 
 # External object files for target IPOverlay
 IPOverlay_EXTERNAL_OBJECTS =
@@ -251,6 +275,7 @@ IPOverlay.exe: CMakeFiles/IPOverlay.dir/traymanager.cpp.obj
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/SettingsDialog.cpp.obj
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj
+IPOverlay.exe: CMakeFiles/IPOverlay.dir/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp.obj
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/build.make
 IPOverlay.exe: E:/applications/Development/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
 IPOverlay.exe: E:/applications/Development/Qt/6.11.1/mingw_64/lib/libQt6Network.a
@@ -261,7 +286,7 @@ IPOverlay.exe: IPOverlay.exe.manifest
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/linkLibs.rsp
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/objects1.rsp
 IPOverlay.exe: CMakeFiles/IPOverlay.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable IPOverlay.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable IPOverlay.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\IPOverlay.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -272,6 +297,7 @@ CMakeFiles/IPOverlay.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\IPOverlay.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/IPOverlay.dir/clean
 
+CMakeFiles/IPOverlay.dir/depend: IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp
 CMakeFiles/IPOverlay.dir/depend: IPOverlay_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\Projects\Qt\IPOverlay G:\Projects\Qt\IPOverlay G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles\IPOverlay.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/IPOverlay.dir/depend
