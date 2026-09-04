@@ -1,0 +1,3 @@
+E:\applications\Development\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\IPOverlay.dir/objects.a
+E:\applications\Development\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\IPOverlay.dir/objects.a @CMakeFiles\IPOverlay.dir\objects1.rsp
+E:\applications\Development\Qt\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\IPOverlay.dir/objects.a -Wl,--no-whole-archive -o IPOverlay.exe -Wl,--out-implib,libIPOverlay.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IPOverlay.dir\linkLibs.rsp

@@ -1,0 +1,26 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/Widget.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/Widget.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/main.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/main.cpp.obj.d"
+  "CMakeFiles/IPOverlay_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/IPOverlay_autogen.dir/ParseCache.txt"
+  "IPOverlay_autogen"
+  "IPOverlay.exe"
+  "IPOverlay.exe.manifest"
+  "IPOverlay.pdb"
+  "IPOverlay_autogen/mocs_compilation.cpp"
+  "IPOverlay_autogen/timestamp"
+  "libIPOverlay.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/IPOverlay.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

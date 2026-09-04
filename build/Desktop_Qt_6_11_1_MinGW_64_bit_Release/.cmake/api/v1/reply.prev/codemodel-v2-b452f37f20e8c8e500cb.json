@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-41dd7e2a0b646903ecca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IPOverlay",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "IPOverlay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPOverlay-Release-1e7ce5764e4fd6ec319d.json",
+					"name" : "IPOverlay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IPOverlay_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPOverlay_autogen-Release-373f0bb10a9abfffae6f.json",
+					"name" : "IPOverlay_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IPOverlay_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IPOverlay_autogen_timestamp_deps-Release-caeb40e13b0ac07049d0.json",
+					"name" : "IPOverlay_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release",
+		"source" : "G:/Projects/Qt/IPOverlay"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

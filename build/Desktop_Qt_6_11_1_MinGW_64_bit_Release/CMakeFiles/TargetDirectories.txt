@@ -1,0 +1,9 @@
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/edit_cache.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/rebuild_cache.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/list_install_components.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install/local.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/install/strip.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen_timestamp_deps.dir
+G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir
