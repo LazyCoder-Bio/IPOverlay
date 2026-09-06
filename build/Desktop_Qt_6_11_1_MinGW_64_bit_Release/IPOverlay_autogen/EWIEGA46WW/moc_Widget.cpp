@@ -48,7 +48,8 @@ template <> constexpr inline auto Widget::qt_create_metaobjectdata<qt_meta_tag_Z
         "onWanIpGot",
         "pubIp",
         "onWanIpError",
-        "errMsg"
+        "errMsg",
+        "onManualRefreshIp"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -68,6 +69,8 @@ template <> constexpr inline auto Widget::qt_create_metaobjectdata<qt_meta_tag_Z
         QtMocHelpers::SlotData<void(const QString &)>(9, 2, QMC::AccessPrivate, QMetaType::Void, {{
             { QMetaType::QString, 10 },
         }}),
+        // Slot 'onManualRefreshIp'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -95,6 +98,7 @@ void Widget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         case 1: _t->onLanIpReady((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: _t->onWanIpGot((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
         case 3: _t->onWanIpError((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 4: _t->onManualRefreshIp(); break;
         default: ;
         }
     }
@@ -119,14 +123,14 @@ int Widget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }

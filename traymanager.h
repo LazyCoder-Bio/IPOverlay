@@ -22,6 +22,7 @@ public:
 signals:
     //保存配置之后发出信号，交给Widget接收
     void configChanged(const AppConfig& newCfg);
+    void triggerManualRefresh(); //新增：触发手动刷新IP
 
 private slots:
     void slotShowFloatWindow();
@@ -38,6 +39,7 @@ private:
     QAction* m_actSettings = nullptr; //设置菜单项
     QAction* m_actAbout=nullptr;
     QAction* m_actQuit = nullptr;
+    QAction* m_actRefresh = nullptr; //✅新增手动刷新action
 
     FloatingIpoverlayWidget* m_floatWindow = nullptr;
     inline static const QString AppRegKey = "IPOverlay";

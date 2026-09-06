@@ -43,6 +43,7 @@ template <> constexpr inline auto TrayManager::qt_create_metaobjectdata<qt_meta_
         "",
         "AppConfig",
         "newCfg",
+        "triggerManualRefresh",
         "slotShowFloatWindow",
         "slotHideFloatWindow",
         "slotAutoStartToggled",
@@ -55,16 +56,18 @@ template <> constexpr inline auto TrayManager::qt_create_metaobjectdata<qt_meta_
         QtMocHelpers::SignalData<void(const AppConfig &)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
             { 0x80000000 | 3, 4 },
         }}),
+        // Signal 'triggerManualRefresh'
+        QtMocHelpers::SignalData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'slotShowFloatWindow'
-        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'slotHideFloatWindow'
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'slotHideFloatWindow'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'slotAutoStartToggled'
-        QtMocHelpers::SlotData<void(bool)>(7, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::Bool, 8 },
+        QtMocHelpers::SlotData<void(bool)>(8, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Bool, 9 },
         }}),
         // Slot 'slotQuitApp'
-        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -89,15 +92,18 @@ void TrayManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->configChanged((*reinterpret_cast<std::add_pointer_t<AppConfig>>(_a[1]))); break;
-        case 1: _t->slotShowFloatWindow(); break;
-        case 2: _t->slotHideFloatWindow(); break;
-        case 3: _t->slotAutoStartToggled((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
-        case 4: _t->slotQuitApp(); break;
+        case 1: _t->triggerManualRefresh(); break;
+        case 2: _t->slotShowFloatWindow(); break;
+        case 3: _t->slotHideFloatWindow(); break;
+        case 4: _t->slotAutoStartToggled((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 5: _t->slotQuitApp(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (TrayManager::*)(const AppConfig & )>(_a, &TrayManager::configChanged, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (TrayManager::*)()>(_a, &TrayManager::triggerManualRefresh, 1))
             return;
     }
 }
@@ -121,14 +127,14 @@ int TrayManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 6;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 6)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 6;
     }
     return _id;
 }
@@ -137,5 +143,11 @@ int TrayManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void TrayManager::configChanged(const AppConfig & _t1)
 {
     QMetaObject::activate<void>(this, &staticMetaObject, 0, nullptr, _t1);
+}
+
+// SIGNAL 1
+void TrayManager::triggerManualRefresh()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 QT_WARNING_POP

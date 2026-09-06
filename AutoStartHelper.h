@@ -11,6 +11,9 @@ public:
     static bool setAutoStart(bool enable, const QString& appName, const QString& exePath);
     // 查询该键名是否已经开启开机自启
     static bool isAutoStart(const QString& appName);
+    // 重载：校验注册表存储路径和当前exe路径匹配，解决程序移动位置残留旧注册表
+    static bool isAutoStart(const QString& appName, const QString& currentExePath);
+
 };
 
 #endif // AUTOSTARTHELPER_H

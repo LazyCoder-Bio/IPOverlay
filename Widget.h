@@ -24,6 +24,7 @@ private slots:
     void onLanIpReady(const QString& lanIp);
     void onWanIpGot(const QString& pubIp);
     void onWanIpError(const QString& errMsg);
+    void onManualRefreshIp(); //✅新增
 
 private:
     FloatingIpoverlayWidget* m_floatWin = nullptr;

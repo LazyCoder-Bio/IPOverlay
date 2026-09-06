@@ -49,16 +49,19 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
     m_actHide = new QAction("隐藏悬浮窗", m_trayMenu);
     m_actAutoStart = new QAction("开机自启", m_trayMenu);
     m_actAutoStart->setCheckable(true);
-
+    m_actRefresh = new QAction("手动刷新", m_trayMenu);
     m_actSettings = new QAction("配置", m_trayMenu); //新增设置
     m_actAbout=new QAction("关于",m_trayMenu);
     m_actQuit = new QAction("退出程序", m_trayMenu);
+
 
     m_trayMenu->addAction(m_actShow);
     m_trayMenu->addAction(m_actHide);
     m_trayMenu->addSeparator();
     m_trayMenu->addAction(m_actAutoStart);
     m_trayMenu->addSeparator();
+    m_trayMenu->addAction(m_actRefresh); //加入手动刷新
+     m_trayMenu->addSeparator();
     m_trayMenu->addAction(m_actSettings); //插入设置菜单项
      m_trayMenu->addSeparator();
     m_trayMenu->addAction(m_actAbout);
@@ -66,7 +69,10 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
     m_trayMenu->addAction(m_actQuit);
 
     //读取开机自启状态
-    bool autoOn = AutoStartHelper::isAutoStart(AppRegKey);
+    //bool autoOn = AutoStartHelper::isAutoStart(AppRegKey);
+    QString exePath = QCoreApplication::applicationFilePath();
+    bool autoOn = AutoStartHelper::isAutoStart(AppRegKey, exePath);
+
     m_actAutoStart->setChecked(autoOn);
 
     //普通菜单绑定
@@ -74,11 +80,10 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
     connect(m_actHide,&QAction::triggered,this,&TrayManager::slotHideFloatWindow);
     connect(m_actAutoStart,&QAction::toggled,this,&TrayManager::slotAutoStartToggled);
     connect(m_actQuit,&QAction::triggered,this,&TrayManager::slotQuitApp);
-
-
-
-
-
+    // 绑定手动刷新
+    connect(m_actRefresh, &QAction::triggered, this, [this](){
+        emit triggerManualRefresh(); //仅向外发信号，不操作自启
+    });
 
     //=====点击【设置】弹出SettingsDialog对话框=====
     connect(m_actSettings,&QAction::triggered,this,[this](){
@@ -96,7 +101,6 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
             emit configChanged(newCfg); //发出配置变更信号
         });
     });
-
 
 
     //====点击【关于】弹出AboutDialog对话框====

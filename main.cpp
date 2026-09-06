@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
     a.setQuitOnLastWindowClosed(false); // ⭐新增，后台驻留必备
 
-    a.setWindowIcon(QIcon(":/IPOverlay.png"));
+
 
 
 

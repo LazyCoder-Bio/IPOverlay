@@ -12,7 +12,7 @@ Widget::Widget(QWidget *parent)
     : QWidget(parent, Qt::Tool| Qt::FramelessWindowHint)
 {
 
-    setWindowIcon(QIcon(":/IPOverlay.png"));
+
     setAttribute(Qt::WA_NoSystemBackground);
     setAttribute(Qt::WA_TransparentForMouseEvents);
 
@@ -70,6 +70,9 @@ void Widget::setupTray()
 
     //托盘配置变更信号
     connect(m_trayManager, &TrayManager::configChanged, this, &Widget::onConfigChanged);
+    //✅绑定手动刷新IP信号
+    connect(m_trayManager, &TrayManager::triggerManualRefresh, this, &Widget::onManualRefreshIp);
+
 }
 
 //托盘配置变更
@@ -109,4 +112,12 @@ void Widget::onWanIpError(const QString &errMsg)
     {
         m_floatWin->setIpText(m_lastPubIp, m_lastLanIp);
     }
+}
+
+void Widget::onManualRefreshIp()
+{
+    if(!m_ipService)
+        return;
+    m_ipService->fetchLanIp();
+    m_ipService->fetchWanIpNow();
 }

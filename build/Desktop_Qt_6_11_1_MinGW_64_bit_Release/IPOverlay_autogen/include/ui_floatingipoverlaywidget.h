@@ -10,7 +10,6 @@
 #define UI_FLOATINGIPOVERLAYWIDGET_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -35,9 +34,11 @@ public:
         if (FloatingIpoverlayWidget->objectName().isEmpty())
             FloatingIpoverlayWidget->setObjectName("FloatingIpoverlayWidget");
         FloatingIpoverlayWidget->resize(184, 82);
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/IPOverlay.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
-        FloatingIpoverlayWidget->setWindowIcon(icon);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(FloatingIpoverlayWidget->sizePolicy().hasHeightForWidth());
+        FloatingIpoverlayWidget->setSizePolicy(sizePolicy);
         FloatingIpoverlayWidget->setStyleSheet(QString::fromUtf8("background-color:rgba(0,0,0,140); /*\345\215\212\351\200\217\351\273\221\350\211\262\345\272\225\346\235\277\357\274\214\346\234\200\345\220\216\346\225\260\345\255\2270\342\200\221255\346\216\247\345\210\266\351\200\217\346\230\216\345\272\246*/\n"
 "    border-radius:12px;"));
         verticalLayout = new QVBoxLayout(FloatingIpoverlayWidget);
@@ -46,6 +47,8 @@ public:
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         m_PublicIp_Label = new QLabel(FloatingIpoverlayWidget);
         m_PublicIp_Label->setObjectName("m_PublicIp_Label");
+        sizePolicy.setHeightForWidth(m_PublicIp_Label->sizePolicy().hasHeightForWidth());
+        m_PublicIp_Label->setSizePolicy(sizePolicy);
         QFont font;
         font.setPointSize(13);
         m_PublicIp_Label->setFont(font);
@@ -56,6 +59,8 @@ public:
 
         m_PublicIp = new QLabel(FloatingIpoverlayWidget);
         m_PublicIp->setObjectName("m_PublicIp");
+        sizePolicy.setHeightForWidth(m_PublicIp->sizePolicy().hasHeightForWidth());
+        m_PublicIp->setSizePolicy(sizePolicy);
         m_PublicIp->setFont(font);
         m_PublicIp->setStyleSheet(QString::fromUtf8("color: rgb(0, 255, 0);\n"
 "background-color: transparent;"));
@@ -69,9 +74,6 @@ public:
         horizontalLayout->setObjectName("horizontalLayout");
         m_LocalIp_Label = new QLabel(FloatingIpoverlayWidget);
         m_LocalIp_Label->setObjectName("m_LocalIp_Label");
-        QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(m_LocalIp_Label->sizePolicy().hasHeightForWidth());
         m_LocalIp_Label->setSizePolicy(sizePolicy);
         QFont font1;
@@ -82,6 +84,8 @@ public:
 
         m_LocalIp = new QLabel(FloatingIpoverlayWidget);
         m_LocalIp->setObjectName("m_LocalIp");
+        sizePolicy.setHeightForWidth(m_LocalIp->sizePolicy().hasHeightForWidth());
+        m_LocalIp->setSizePolicy(sizePolicy);
 
         horizontalLayout->addWidget(m_LocalIp);
 
