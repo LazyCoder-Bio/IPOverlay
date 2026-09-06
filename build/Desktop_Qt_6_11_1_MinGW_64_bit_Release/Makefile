@@ -416,6 +416,30 @@ ipservice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/ipservice.cpp.s
 .PHONY : ipservice.cpp.s
 
+loghelper.obj: loghelper.cpp.obj
+.PHONY : loghelper.obj
+
+# target to build an object file
+loghelper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/loghelper.cpp.obj
+.PHONY : loghelper.cpp.obj
+
+loghelper.i: loghelper.cpp.i
+.PHONY : loghelper.i
+
+# target to preprocess a source file
+loghelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/loghelper.cpp.i
+.PHONY : loghelper.cpp.i
+
+loghelper.s: loghelper.cpp.s
+.PHONY : loghelper.s
+
+# target to generate assembly for a file
+loghelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/loghelper.cpp.s
+.PHONY : loghelper.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -506,6 +530,9 @@ help:
 	@echo ... ipservice.obj
 	@echo ... ipservice.i
 	@echo ... ipservice.s
+	@echo ... loghelper.obj
+	@echo ... loghelper.i
+	@echo ... loghelper.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

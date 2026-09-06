@@ -1,6 +1,6 @@
 #include "floatingipoverlaywidget.h"
 #include "Widget.h"
-
+#include "LogHelper.h"
 
 
 #include <QApplication>
@@ -26,7 +26,10 @@ int main(int argc, char *argv[])
 
     a.setQuitOnLastWindowClosed(false); // ⭐新增，后台驻留必备
 
-
+    // ✅初始化日志系统，执行日志滚动
+    LogHelper::init();
+    // ✅全局接管Qt日志输出，所有qDebug/qWarning/qCritical全部进入日志文件
+    qInstallMessageHandler(LogHelper::messageHandler);
 
 
 

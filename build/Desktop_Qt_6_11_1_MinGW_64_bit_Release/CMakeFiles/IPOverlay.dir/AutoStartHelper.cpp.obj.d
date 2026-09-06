@@ -386,4 +386,5 @@ CMakeFiles/IPOverlay.dir/AutoStartHelper.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qtimezone.h
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qtimezone.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QDebug

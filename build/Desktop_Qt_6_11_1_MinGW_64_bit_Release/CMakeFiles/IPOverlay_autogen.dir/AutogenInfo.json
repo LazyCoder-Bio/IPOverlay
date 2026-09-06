@@ -432,6 +432,12 @@
 			null
 		],
 		[
+			"G:/Projects/Qt/IPOverlay/loghelper.h",
+			"MU",
+			"EWIEGA46WW/moc_loghelper.cpp",
+			null
+		],
+		[
 			"G:/Projects/Qt/IPOverlay/traymanager.h",
 			"MU",
 			"EWIEGA46WW/moc_traymanager.cpp",
@@ -519,6 +525,7 @@
 		[ "G:/Projects/Qt/IPOverlay/aboutdialog.cpp", "MU", null ],
 		[ "G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp", "MU", null ],
 		[ "G:/Projects/Qt/IPOverlay/ipservice.cpp", "MU", null ],
+		[ "G:/Projects/Qt/IPOverlay/loghelper.cpp", "MU", null ],
 		[ "G:/Projects/Qt/IPOverlay/main.cpp", "MU", null ],
 		[ "G:/Projects/Qt/IPOverlay/traymanager.cpp", "MU", null ]
 	],

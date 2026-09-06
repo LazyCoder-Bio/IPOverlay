@@ -1,0 +1,13 @@
+[2026‑09‑06 22:00:08] [DEBUG] [Widget] application widget init start
+[2026‑09‑06 22:00:08] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑06 22:00:08] [DEBUG] [IpService] fetchLanIp result: "192.168.2.8"
+[2026‑09‑06 22:00:08] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑06 22:00:08] [DEBUG] [AutoStartHelper] path check regExe: "C:/Users/MaGa/Desktop/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑06 22:00:08] [DEBUG] [Widget] all component setup finished
+[2026‑09‑06 22:00:11] [DEBUG] 公网IPv4获取成功: "59.50.202.190"
+[2026‑09‑06 22:00:16] [DEBUG] [AutoStartHelper] setAutoStart enable, appName: "IPOverlay" path: "\"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe\""
+[2026‑09‑06 22:00:31] [DEBUG] [Widget] onManualRefreshIp triggered by tray menu
+[2026‑09‑06 22:00:31] [DEBUG] [IpService] fetchLanIp result: "192.168.2.8"
+[2026‑09‑06 22:00:31] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑06 22:00:31] [DEBUG] 公网IPv4获取成功: "59.50.202.190"
+[2026‑09‑06 22:03:39] [DEBUG] [TrayManager] user trigger quit application

@@ -42,9 +42,11 @@
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_floatingipoverlaywidget.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_ipservice.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_traymanager.cpp",
+				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/qrc_IPOverlay.cpp",
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/mocs_compilation.cpp",
 				"G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp",
 				"G:/Projects/Qt/IPOverlay/ipservice.cpp",
+				"G:/Projects/Qt/IPOverlay/loghelper.cpp",
 				"G:/Projects/Qt/IPOverlay/main.cpp",
 				"G:/Projects/Qt/IPOverlay/traymanager.cpp"
 			],
@@ -72,6 +74,7 @@
 				"G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/moc_predefs.h",
 				"G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.h",
 				"G:/Projects/Qt/IPOverlay/ipservice.h",
+				"G:/Projects/Qt/IPOverlay/loghelper.h",
 				"G:/Projects/Qt/IPOverlay/traymanager.h"
 			],
 			"recurse" : true
@@ -118,7 +121,10 @@
 		},
 		{
 			"expression" : "G:/Projects/Qt/IPOverlay/*.qrc",
-			"paths" : [],
+			"paths" : 
+			[
+				"G:/Projects/Qt/IPOverlay/IPOverlay.qrc"
+			],
 			"recurse" : true
 		},
 		{
@@ -1717,6 +1723,9 @@
 		{
 			"isExternal" : true,
 			"path" : "E:/applications/Development/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
+		},
+		{
+			"path" : "IPOverlay.qrc"
 		}
 	],
 	"kind" : "cmakeFiles",

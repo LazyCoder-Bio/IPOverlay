@@ -62,6 +62,7 @@ set(OLD_GLOB
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/mocs_compilation.cpp"
   "G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp"
   "G:/Projects/Qt/IPOverlay/ipservice.cpp"
+  "G:/Projects/Qt/IPOverlay/loghelper.cpp"
   "G:/Projects/Qt/IPOverlay/main.cpp"
   "G:/Projects/Qt/IPOverlay/traymanager.cpp"
   )
@@ -95,6 +96,7 @@ set(OLD_GLOB
   "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/moc_predefs.h"
   "G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.h"
   "G:/Projects/Qt/IPOverlay/ipservice.h"
+  "G:/Projects/Qt/IPOverlay/loghelper.h"
   "G:/Projects/Qt/IPOverlay/traymanager.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -2289,3 +2289,5 @@ G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp
  uic:./ui_floatingipoverlaywidget.h
 G:/Projects/Qt/IPOverlay/main.cpp
 G:/Projects/Qt/IPOverlay/traymanager.cpp
+G:/Projects/Qt/IPOverlay/loghelper.h
+G:/Projects/Qt/IPOverlay/loghelper.cpp

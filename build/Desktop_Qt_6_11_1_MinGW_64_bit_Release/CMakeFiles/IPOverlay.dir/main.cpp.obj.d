@@ -384,7 +384,8 @@ CMakeFiles/IPOverlay.dir/main.cpp.obj: G:\Projects\Qt\IPOverlay\main.cpp \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
- G:\Projects\Qt\IPOverlay\Widget.h \
+ G:\Projects\Qt\IPOverlay\Widget.h G:\Projects\Qt\IPOverlay\LogHelper.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QString \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtWidgets/qapplication.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \

@@ -61,6 +61,7 @@ void IpService::fetchLanIp()
         }
     }
 endScan:
+    qDebug() << "[IpService] fetchLanIp result:" << lanIp;
     emit lanIpReady(lanIp); //抛出内网IP就绪信号
 }
 

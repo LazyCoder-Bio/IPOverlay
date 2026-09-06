@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj.d"
   "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj"
   "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/loghelper.cpp.obj"
+  "CMakeFiles/IPOverlay.dir/loghelper.cpp.obj.d"
   "CMakeFiles/IPOverlay.dir/main.cpp.obj"
   "CMakeFiles/IPOverlay.dir/main.cpp.obj.d"
   "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj"

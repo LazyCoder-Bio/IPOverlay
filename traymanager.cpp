@@ -45,6 +45,7 @@ void TrayManager::initTray(FloatingIpoverlayWidget *floatWin)
     if (!QSystemTrayIcon::isSystemTrayAvailable())
     {
         QMessageBox::warning(nullptr, "提示", "当前系统不支持系统托盘");
+        qWarning() << "[TrayManager] System tray is not available on this system";
         return;
     }
 
@@ -179,6 +180,9 @@ void TrayManager::slotAutoStartToggled(bool checked)
     bool ok = AutoStartHelper::setAutoStart(checked, AppRegKey, exePath);
     if(!ok)
     {
+
+        QMessageBox::warning(nullptr,"错误","设置开机自启失败！");
+        qWarning() << "[TrayManager] slotAutoStartToggled setAutoStart failed, rollback UI";
         // 设置失败，回滚界面勾选
         m_actAutoStart->setChecked(!checked);
     }
@@ -189,5 +193,8 @@ void TrayManager::slotAutoStartToggled(bool checked)
  */
 void TrayManager::slotQuitApp()
 {
+    qDebug() << "[TrayManager] user trigger quit application";
+    if(m_trayIcon)
+        m_trayIcon->hide();
     qApp->quit();
 }

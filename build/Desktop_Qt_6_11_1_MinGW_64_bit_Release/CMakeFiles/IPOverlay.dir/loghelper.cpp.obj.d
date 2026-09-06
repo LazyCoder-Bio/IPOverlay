@@ -1,6 +1,6 @@
-CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
- G:\Projects\Qt\IPOverlay\ConfigHelper.cpp \
- G:\Projects\Qt\IPOverlay\ConfigHelper.h \
+CMakeFiles/IPOverlay.dir/loghelper.cpp.obj: \
+ G:\Projects\Qt\IPOverlay\loghelper.cpp \
+ G:\Projects\Qt\IPOverlay\LogHelper.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QString \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstring.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qchar.h \
@@ -282,8 +282,15 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringbuilder.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringconverter.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringconverter_base.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QStringList \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringlist.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QFile \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfile.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfiledevice.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qiodevicebase.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfunctionaltools_impl.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qlist.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qhashfunctions.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
@@ -291,22 +298,13 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qiterator.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qbytearraylist.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringlist.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qalgorithms.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qstringmatcher.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QCoreApplication \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreevent.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qbasictimer.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobject.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qobjectdefs_impl.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfunctionaltools_impl.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qscopedpointer.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qmetatype.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdatastream.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qiodevicebase.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfloat16.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qmath.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qtformat_impl.h \
@@ -328,15 +326,6 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qeventloop.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdeadlinetimer.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qnativeinterface.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QDir \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdir.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdirlisting.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfiledevice.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qspan.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q20iterator.h \
@@ -370,6 +359,9 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QFileInfo \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfileinfo.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qshareddata.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdatetime.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcalendar.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
@@ -379,7 +371,6 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcontiguouscache.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qsharedpointer.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qshareddata.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qsharedpointer_impl.h \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
  E:/applications/Development/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
@@ -394,9 +385,18 @@ CMakeFiles/IPOverlay.dir/ConfigHelper.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qalloc.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q23utility.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q20utility.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfile.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qfileinfo.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qtimezone.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QSettings \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qsettings.h \
- E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QDebug
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QDateTime \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QTextStream \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QCoreApplication \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreevent.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qbasictimer.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qeventloop.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qnativeinterface.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QDir \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdir.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/qdirlisting.h

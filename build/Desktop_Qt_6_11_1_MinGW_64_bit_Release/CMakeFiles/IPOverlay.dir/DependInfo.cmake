@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "G:/Projects/Qt/IPOverlay/aboutdialog.cpp" "CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/aboutdialog.cpp.obj.d"
   "G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.cpp" "CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/floatingipoverlaywidget.cpp.obj.d"
   "G:/Projects/Qt/IPOverlay/ipservice.cpp" "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/ipservice.cpp.obj.d"
+  "G:/Projects/Qt/IPOverlay/loghelper.cpp" "CMakeFiles/IPOverlay.dir/loghelper.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/loghelper.cpp.obj.d"
   "G:/Projects/Qt/IPOverlay/main.cpp" "CMakeFiles/IPOverlay.dir/main.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/main.cpp.obj.d"
   "G:/Projects/Qt/IPOverlay/traymanager.cpp" "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj" "gcc" "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj.d"
   )

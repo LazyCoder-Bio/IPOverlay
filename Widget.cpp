@@ -15,6 +15,7 @@
 Widget::Widget(QWidget *parent)
     : QWidget(parent, Qt::Tool| Qt::FramelessWindowHint)
 {
+    qDebug() << "[Widget] application widget init start";
     // 设置无系统背景，透明鼠标事件，本窗口只做逻辑，不渲染界面
     setAttribute(Qt::WA_NoSystemBackground);
     setAttribute(Qt::WA_TransparentForMouseEvents);
@@ -22,6 +23,7 @@ Widget::Widget(QWidget *parent)
     setupFloatWindow();   // 初始化悬浮IP显示窗口
     setupIpService();     // 初始化IP获取服务（内网/公网）
     setupTray();          // 初始化系统托盘管理器
+    qDebug() << "[Widget] all component setup finished";
 }
 
 Widget::~Widget()
@@ -156,6 +158,7 @@ void Widget::onWanIpError(const QString &errMsg)
  */
 void Widget::onManualRefreshIp()
 {
+    qDebug() << "[Widget] onManualRefreshIp triggered by tray menu";
     if(!m_ipService)
         return;
     m_ipService->fetchLanIp();     // 刷新内网IP
