@@ -17,6 +17,7 @@
   - 操作`HKEY_CURRENT_USER`注册表，**无需管理员权限**
   - 路径空格自动添加英文双引号，解决Windows Run项启动失败问题
   - 路径校验：程序移动目录会识别旧注册表失效，避免假勾选现象
+    他妈的好像没起什么叼的作用
 - 📝 **本地日志系统**
   - 同时输出控制台 + 本地日志文件 `ipoverlay.log`
   - 日志自动轮转，单文件最大2MB，旧日志备份为 `ipoverlay.old.log`
@@ -31,3 +32,5 @@
 ```bash
 git clone https://github.com/LazyCoder-Bio/IPOverlay.git
 cd IPOverlay
+
+```
