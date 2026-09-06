@@ -29,5 +29,5 @@
 
 ## 🛠️ 编译构建
 ```bash
-git clone https://github.com/xxx/IPOverlay.git
+git clone https://github.com/LazyCoder-Bio/IPOverlay.git
 cd IPOverlay
