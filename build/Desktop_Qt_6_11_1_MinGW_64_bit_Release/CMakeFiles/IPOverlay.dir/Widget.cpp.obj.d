@@ -384,6 +384,7 @@ CMakeFiles/IPOverlay.dir/Widget.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  G:\Projects\Qt\IPOverlay\floatingipoverlaywidget.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
  G:\Projects\Qt\IPOverlay\ipservice.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QObject \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QTimer \

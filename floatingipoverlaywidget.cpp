@@ -1,100 +1,84 @@
 #include "floatingipoverlaywidget.h"
 #include "./ui_floatingipoverlaywidget.h"
-
 #include <QMouseEvent>
 #include <QApplication>
 #include <QScreen>
 
-
+/**
+ * @brief IP悬浮显示窗口构造函数
+ * @param parent 父对象
+ * @note 独立顶层无边框置顶窗口，支持鼠标拖拽移动，透明背景，不抢占窗口焦点
+ */
 FloatingIpoverlayWidget::FloatingIpoverlayWidget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::FloatingIpoverlayWidget)
 {
     ui->setupUi(this);
 
-
-
-    // 1.窗口标记：无边框 + 置顶（总在最上层）
+    // 设置窗口标志位：独立顶层窗口、无边框、始终置顶、不获取输入焦点
     setWindowFlags(
-        Qt::Window                // 这是独立顶层窗口，不能丢
-        | Qt::FramelessWindowHint // 去掉系统标题栏边框
-        | Qt::WindowStaysOnTopHint // 窗口置顶，永远显示在其他窗口上方
-        | Qt::WindowDoesNotAcceptFocus
+        Qt::Window                // 标记为独立顶层窗口，不可省略
+        | Qt::FramelessWindowHint // 去除系统标题栏与边框
+        | Qt::WindowStaysOnTopHint // 窗口置顶，始终浮于其他窗口上层
+        | Qt::WindowDoesNotAcceptFocus // 窗口不接收键盘输入焦点
         );
 
-    // 2.开启窗口整体透明背景，允许绘制圆角/半透明
+    // 开启窗口透明背景，支持圆角、半透明样式渲染
     setAttribute(Qt::WA_TranslucentBackground);
-    setAttribute(Qt::WA_ShowWithoutActivating); //新增，show不抢焦点
-
-
-
-
-
-
-
+    // 显示窗口的时候不会抢夺系统输入焦点
+    setAttribute(Qt::WA_ShowWithoutActivating);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-void FloatingIpoverlayWidget:: safeShow(){
-
-
-
-
+/**
+ * @brief 安全显示悬浮窗口，对外暴露接口
+ */
+void FloatingIpoverlayWidget::safeShow(){
     show();
 }
 
-
-
-
-// setter接口：只负责把传入字符串设置给label
+/**
+ * @brief 设置显示的公网IP、内网IP文本
+ * @param pubStr 公网IP字符串
+ * @param lanStr 内网IP字符串
+ */
 void FloatingIpoverlayWidget::setIpText(const QString &pubStr, const QString &lanStr)
 {
     ui->m_PublicIp->setText(pubStr);
     ui->m_LocalIp->setText(lanStr);
 }
 
-
-
-//============自实现 拖拽，移动===================//
-
-
-#include <QMouseEvent>
-
-// 鼠标左键按下：记录偏移
+/**
+ * @brief 鼠标按下事件，拖拽窗口起始，记录鼠标相对窗口左上角偏移
+ * @param event 鼠标事件对象
+ */
 void FloatingIpoverlayWidget::mousePressEvent(QMouseEvent *event)
 {
-    // 只处理鼠标左键
+    // 仅响应鼠标左键按下
     if (event->button() == Qt::LeftButton)
     {
-        // globalPosition()：屏幕全局鼠标坐标；frameGeometry().topLeft()：窗口左上角屏幕坐标
+        // 计算：屏幕鼠标坐标 − 窗口左上角屏幕坐标 = 鼠标在窗口内偏移量
         m_dragPos = event->globalPosition().toPoint() - frameGeometry().topLeft();
-        event->accept(); // 消费这个事件，不继续传递
+        event->accept(); //消费事件，不再向上传递
     }
 }
 
-// 鼠标移动：拖动窗口
+/**
+ * @brief 鼠标移动事件，实现窗口拖拽，同时做屏幕边界限制，防止拖出屏幕外
+ * @param event 鼠标事件对象
+ */
 void FloatingIpoverlayWidget::mouseMoveEvent(QMouseEvent *event)
 {
+    // 判断左键处于按住状态
     if (event->buttons() & Qt::LeftButton)
     {
+        // 根据鼠标全局位置和记录的偏移，计算窗口新位置
         QPoint newWinPos = event->globalPosition().toPoint() - m_dragPos;
-
-        // 获取屏幕可用区域（排除任务栏）
+        // 获取主屏幕可用几何区域（自动排除任务栏区域）
         QRect screenRect = QApplication::primaryScreen()->availableGeometry();
+        // 构造新窗口的完整包围矩形
         QRect winRect(newWinPos, size());
 
-        // 限制窗口不能跑出屏幕
+        // 边界校验：只有窗口完整落在屏幕可用区域内，才执行移动
         if (screenRect.contains(winRect))
         {
             move(newWinPos);
@@ -103,11 +87,9 @@ void FloatingIpoverlayWidget::mouseMoveEvent(QMouseEvent *event)
     }
 }
 
-//==========================================//
-
-
-
-
+/**
+ * @brief 析构，释放UI资源
+ */
 FloatingIpoverlayWidget::~FloatingIpoverlayWidget()
 {
     delete ui;

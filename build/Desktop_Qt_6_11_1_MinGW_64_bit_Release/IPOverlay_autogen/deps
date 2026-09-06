@@ -3,6 +3,7 @@ IPOverlay_autogen/timestamp: \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QList \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QMetaType \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QObject \
+	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QSharedDataPointer \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QString \
 	E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QStringList \

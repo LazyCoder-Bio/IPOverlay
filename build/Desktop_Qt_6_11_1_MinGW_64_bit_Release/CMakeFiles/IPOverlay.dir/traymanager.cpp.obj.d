@@ -391,6 +391,7 @@ CMakeFiles/IPOverlay.dir/traymanager.cpp.obj: \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtGui/QAction \
  G:\Projects\Qt\IPOverlay\floatingipoverlaywidget.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
  G:\Projects\Qt\IPOverlay\AutoStartHelper.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QString \
  G:\Projects\Qt\IPOverlay\ConfigHelper.h \

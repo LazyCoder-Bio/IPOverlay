@@ -399,6 +399,7 @@ CMakeFiles/IPOverlay.dir/IPOverlay_autogen/mocs_compilation.cpp.obj: \
  G:/Projects/Qt/IPOverlay/aboutdialog.h \
  G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\EWIEGA46WW/moc_floatingipoverlaywidget.cpp \
  G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.h \
+ E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
  G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\IPOverlay_autogen\EWIEGA46WW/moc_ipservice.cpp \
  G:/Projects/Qt/IPOverlay/ipservice.h \
  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QObject \

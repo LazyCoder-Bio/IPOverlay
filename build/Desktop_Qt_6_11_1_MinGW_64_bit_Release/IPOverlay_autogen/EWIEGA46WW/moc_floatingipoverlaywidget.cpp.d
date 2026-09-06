@@ -1,5 +1,6 @@
 G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/EWIEGA46WW/moc_floatingipoverlaywidget.cpp: G:/Projects/Qt/IPOverlay/floatingipoverlaywidget.h \
   G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/moc_predefs.h \
+  E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/QPoint \
   E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
   E:/applications/Development/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
