@@ -488,6 +488,14 @@ traymanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/traymanager.cpp.s
 .PHONY : traymanager.cpp.s
 
+win_app.obj: win_app.rc.obj
+.PHONY : win_app.obj
+
+# target to build an object file
+win_app.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/win_app.rc.obj
+.PHONY : win_app.rc.obj
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -539,6 +547,7 @@ help:
 	@echo ... traymanager.obj
 	@echo ... traymanager.i
 	@echo ... traymanager.s
+	@echo ... win_app.obj
 .PHONY : help
 
 

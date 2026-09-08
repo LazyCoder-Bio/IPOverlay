@@ -79,16 +79,16 @@ clean: CMakeFiles/IPOverlay_autogen.dir/clean
 # Target rules for target CMakeFiles/IPOverlay.dir
 
 # All Build rule for target.
-CMakeFiles/IPOverlay.dir/all: CMakeFiles/IPOverlay_autogen_timestamp_deps.dir/all
 CMakeFiles/IPOverlay.dir/all: CMakeFiles/IPOverlay_autogen.dir/all
+CMakeFiles/IPOverlay.dir/all: CMakeFiles/IPOverlay_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay.dir\build.make CMakeFiles/IPOverlay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target IPOverlay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target IPOverlay"
 .PHONY : CMakeFiles/IPOverlay.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IPOverlay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/IPOverlay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles 0
 .PHONY : CMakeFiles/IPOverlay.dir/rule
@@ -135,7 +135,7 @@ CMakeFiles/IPOverlay_autogen_timestamp_deps.dir/clean:
 CMakeFiles/IPOverlay_autogen.dir/all: CMakeFiles/IPOverlay_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay_autogen.dir\build.make CMakeFiles/IPOverlay_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IPOverlay_autogen.dir\build.make CMakeFiles/IPOverlay_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=16 "Built target IPOverlay_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=G:\Projects\Qt\IPOverlay\build\Desktop_Qt_6_11_1_MinGW_64_bit_Release\CMakeFiles --progress-num=17 "Built target IPOverlay_autogen"
 .PHONY : CMakeFiles/IPOverlay_autogen.dir/all
 
 # Build rule for subdir invocation for target.

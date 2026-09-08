@@ -23,6 +23,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/IPOverlay.dir/main.cpp.obj.d"
   "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj"
   "CMakeFiles/IPOverlay.dir/traymanager.cpp.obj.d"
+  "CMakeFiles/IPOverlay.dir/win_app.rc.obj"
   "CMakeFiles/IPOverlay_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/IPOverlay_autogen.dir/ParseCache.txt"
   "IPOverlay_autogen"
@@ -36,6 +37,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang CXX RC)
   include(CMakeFiles/IPOverlay.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

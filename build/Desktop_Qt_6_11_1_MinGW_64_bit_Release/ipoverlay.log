@@ -11,3 +11,57 @@
 [2026‑09‑06 22:00:31] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
 [2026‑09‑06 22:00:31] [DEBUG] 公网IPv4获取成功: "59.50.202.190"
 [2026‑09‑06 22:03:39] [DEBUG] [TrayManager] user trigger quit application
+[2026‑09‑07 23:12:25] [DEBUG] [Widget] application widget init start
+[2026‑09‑07 23:12:25] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑07 23:12:25] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑07 23:12:25] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑07 23:12:25] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑07 23:12:25] [DEBUG] [Widget] all component setup finished
+[2026‑09‑07 23:12:28] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑07 23:13:24] [DEBUG] [Widget] application widget init start
+[2026‑09‑07 23:13:24] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑07 23:13:24] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑07 23:13:24] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑07 23:13:24] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑07 23:13:24] [DEBUG] [Widget] all component setup finished
+[2026‑09‑07 23:13:25] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑07 23:21:54] [DEBUG] [Widget] application widget init start
+[2026‑09‑07 23:21:54] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑07 23:21:54] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑07 23:21:54] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑07 23:21:54] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑07 23:21:54] [DEBUG] [Widget] all component setup finished
+[2026‑09‑07 23:21:55] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑07 23:22:16] [DEBUG] [TrayManager] user trigger quit application
+[2026‑09‑07 23:22:35] [DEBUG] [Widget] application widget init start
+[2026‑09‑07 23:22:35] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑07 23:22:35] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑07 23:22:35] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑07 23:22:35] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑07 23:22:35] [DEBUG] [Widget] all component setup finished
+[2026‑09‑07 23:22:37] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑07 23:22:44] [DEBUG] [TrayManager] user trigger quit application
+[2026‑09‑08 23:21:29] [DEBUG] [Widget] application widget init start
+[2026‑09‑08 23:21:29] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑08 23:21:29] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑08 23:21:29] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑08 23:21:29] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑08 23:21:29] [DEBUG] [Widget] all component setup finished
+[2026‑09‑08 23:21:33] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑08 23:21:43] [DEBUG] [TrayManager] user trigger quit application
+[2026‑09‑08 23:22:13] [DEBUG] [Widget] application widget init start
+[2026‑09‑08 23:22:13] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑08 23:22:13] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑08 23:22:13] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑08 23:22:13] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑08 23:22:13] [DEBUG] [Widget] all component setup finished
+[2026‑09‑08 23:22:14] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑08 23:22:17] [DEBUG] [TrayManager] user trigger quit application
+[2026‑09‑08 23:31:34] [DEBUG] [Widget] application widget init start
+[2026‑09‑08 23:31:34] [DEBUG] [ConfigHelper] loadConfig, path: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/config.ini"
+[2026‑09‑08 23:31:34] [DEBUG] [IpService] fetchLanIp result: "192.168.2.7"
+[2026‑09‑08 23:31:34] [DEBUG] 尝试公网URL: "https://ipinfo.io/ip"
+[2026‑09‑08 23:31:34] [DEBUG] [AutoStartHelper] path check regExe: "E:/applications/Tools/IPOverlay/IPOverlay.exe"  realExe: "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay.exe"  match: false
+[2026‑09‑08 23:31:34] [DEBUG] [Widget] all component setup finished
+[2026‑09‑08 23:31:35] [DEBUG] 公网IPv4获取成功: "140.240.52.11"
+[2026‑09‑08 23:31:38] [DEBUG] [TrayManager] user trigger quit application

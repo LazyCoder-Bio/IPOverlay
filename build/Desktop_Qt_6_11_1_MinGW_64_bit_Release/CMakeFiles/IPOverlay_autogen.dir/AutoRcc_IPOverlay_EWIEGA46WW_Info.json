@@ -7,7 +7,11 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "MinGW Makefiles",
 	"INCLUDE_DIR" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/IPOverlay_autogen/include",
-	"INPUTS" : [ "G:/Projects/Qt/IPOverlay/IPOverlay.png" ],
+	"INPUTS" : 
+	[
+		"G:/Projects/Qt/IPOverlay/IPOverlay.png",
+		"G:/Projects/Qt/IPOverlay/IpOverlay.ico"
+	],
 	"LOCK_FILE" : "G:/Projects/Qt/IPOverlay/build/Desktop_Qt_6_11_1_MinGW_64_bit_Release/CMakeFiles/IPOverlay_autogen.dir/AutoRcc_IPOverlay_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "IPOverlay" ],

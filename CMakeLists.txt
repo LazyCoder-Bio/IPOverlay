@@ -16,6 +16,7 @@ set(PROJECT_SOURCES
         floatingipoverlaywidget.cpp
         floatingipoverlaywidget.h
         floatingipoverlaywidget.ui
+
         ${TS_FILES}
 )
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -38,6 +39,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         aboutdialog.h aboutdialog.cpp aboutdialog.ui
         IPOverlay.qrc
         loghelper.h loghelper.cpp
+        README.md
+
+        win_app.rc #主程序图标（也就是磁盘上哪个显示的图标）在这里添加
+
+
     )
     qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 else()

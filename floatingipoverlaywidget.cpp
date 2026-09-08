@@ -21,7 +21,9 @@ FloatingIpoverlayWidget::FloatingIpoverlayWidget(QWidget *parent)
         | Qt::FramelessWindowHint // 去除系统标题栏与边框
         | Qt::WindowStaysOnTopHint // 窗口置顶，始终浮于其他窗口上层
         | Qt::WindowDoesNotAcceptFocus // 窗口不接收键盘输入焦点
-        );
+       );
+
+
 
     // 开启窗口透明背景，支持圆角、半透明样式渲染
     setAttribute(Qt::WA_TranslucentBackground);

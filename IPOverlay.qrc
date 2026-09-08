@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>IPOverlay.png</file>
+        <file>IpOverlay.ico</file>
     </qresource>
 </RCC>

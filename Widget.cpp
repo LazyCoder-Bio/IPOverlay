@@ -20,6 +20,8 @@ Widget::Widget(QWidget *parent)
     setAttribute(Qt::WA_NoSystemBackground);
     setAttribute(Qt::WA_TransparentForMouseEvents);
 
+    setWindowIcon(QIcon(":/IPOverlay.png"));
+
     setupFloatWindow();   // 初始化悬浮IP显示窗口
     setupIpService();     // 初始化IP获取服务（内网/公网）
     setupTray();          // 初始化系统托盘管理器
